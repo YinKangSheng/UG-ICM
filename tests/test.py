@@ -56,12 +56,6 @@ def main():
     net = net.to(device)
     checkpoint = torch.load(args.checkpoint)
     net.load_state_dict(checkpoint['state_dict'])
-    save_checkpoint(
-        {
-            "state_dict": net.state_dict(),
-        },
-        True,
-    )
     logger_test.info(f"Start testing!" )
     save_dir = os.path.join('./experiments', args.experiment, "bitstream")
     save_dir_human = os.path.join('./experiments', args.experiment, "human")
