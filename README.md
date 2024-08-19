@@ -26,11 +26,14 @@ Pytorch 1.13.0
 ## Weights
 
 <div class="center">
- |:--------:|:--------:|
- 1 |   [MEDA](https://mega.nz/file/ID1CTDjb#a_McAQeXL3bLshinCvcOU4_pGI3omTJrphhSkjJpApE)
- 2 |   [MEDA](https://mega.nz/file/EaEAybJZ#KJX2oy1rAMILaRcRcTm7O8Xjq7oKdrQExKMqg970O6w) 
- 3 |   [MEDA](https://mega.nz/file/EOkjiLaJ#QLvKceVUCG6TKlrw2KmcTpAhk4dNmvUmftY1N3lAN4c)  
- 4 |   [MEDA](https://mega.nz/file/VD8XjBgb#qqyMYZWLiI3r2g0-yX7jKPHGO1Z1D6SfBC-IfQIpsks)  
+ 
+| Lambda | Metric |
+|:--------:|:--------:|
+| 1 |   [MEDA](https://mega.nz/file/ID1CTDjb#a_McAQeXL3bLshinCvcOU4_pGI3omTJrphhSkjJpApE) |
+| 2 |   [MEDA](https://mega.nz/file/EaEAybJZ#KJX2oy1rAMILaRcRcTm7O8Xjq7oKdrQExKMqg970O6w) |
+| 3 |   [MEDA](https://mega.nz/file/EOkjiLaJ#QLvKceVUCG6TKlrw2KmcTpAhk4dNmvUmftY1N3lAN4c) |
+| 4 |   [MEDA](https://mega.nz/file/VD8XjBgb#qqyMYZWLiI3r2g0-yX7jKPHGO1Z1D6SfBC-IfQIpsks) |
+ 
 </div>
 
 ## Testing:
