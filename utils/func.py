@@ -1,5 +1,4 @@
 # From CompresssAI
-# Modified by Wei Jiang
 
 import torch
 import torch.nn as nn
