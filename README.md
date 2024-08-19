@@ -12,7 +12,7 @@ The image compression model has long struggled with adaptability and generalizat
 ![image-20240309205241968](./img/image2.png)
 
 <div align="center">
-<img src=./img/image3.png width=80% />
+<img src=./img/image3.png width=100% />
 </div>
 
 ## Environment
