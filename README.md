@@ -3,5 +3,5 @@ This repo contains the official PyTorch implementation for the paper “Unified 
 
 <!-- ![image-20240309205345255](./img/image1.pdf) -->
 <div align="center">
-<img src=./imgs/framework.png width=80% />
+<img src=./img/image1.pdf width=80% />
 </div>
