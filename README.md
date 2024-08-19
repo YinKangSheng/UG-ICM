@@ -23,9 +23,10 @@ CompressAI 1.2.0b3
 
 Pytorch 1.13.0
 
-## Weights (2023-09)
+## Weights
 
 <div class="center">
+ |:--------:|:--------:|
  1 |   [MEDA](https://mega.nz/file/ID1CTDjb#a_McAQeXL3bLshinCvcOU4_pGI3omTJrphhSkjJpApE)
  2 |   [MEDA](https://mega.nz/file/EaEAybJZ#KJX2oy1rAMILaRcRcTm7O8Xjq7oKdrQExKMqg970O6w) 
  3 |   [MEDA](https://mega.nz/file/EOkjiLaJ#QLvKceVUCG6TKlrw2KmcTpAhk4dNmvUmftY1N3lAN4c)  
@@ -39,5 +40,9 @@ cd tests
 
 python test.py -exp test_machine --gpu_id 0  -c /path/to/checkpoint -d /path/to/dataset
 ```
+
+## License
+
+[MIT License](https://opensource.org/licenses/MIT)
 
 
