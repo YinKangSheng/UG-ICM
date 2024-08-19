@@ -23,5 +23,9 @@ CompressAI 1.2.0b3
 
 Pytorch 1.13.0
 
-## Quick Start
+### Testing:
+
+cd tests
+
+python test.py -exp test_machine --gpu_id 0 --beta 1  -c /path/to/checkpoint -d /path/to/dataset
 
