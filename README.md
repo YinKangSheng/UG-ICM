@@ -1,19 +1,14 @@
 # Unified Coding for Both Human Perception and Generalized Machine Analytics with CLIP Supervision（UG-ICM）
 This repo contains the official PyTorch implementation for the paper “Unified Coding for Both Human Perception and Generalized Machine Analytics with CLIP Supervision”.
 
-<!-- ![image-20240309205345255](./img/image1.pdf) -->
-<div align="center">
-<img src=./img/image1.png width=80% />
-</div>
+![image-20240309205241967](./img/image1.png)
 
 ## Abstract
 The image compression model has long struggled with adaptability and generalization, as the decoded bitstream typically serves only human or machine needs and fails to preserve information for unseen visual tasks. Therefore, this paper innovatively introduces supervision obtained from multimodal pre-training models and incorporates adaptive multi-objective optimization tailored to support both human visual perception and machine vision simultaneously with a single bitstream, denoted as Unified and Generalized Image Coding for Machine (UG-ICM). Specifically, to get rid of the reliance between compression models with downstream task supervision, we introduce Contrastive Language-Image Pre-training(CLIP) models into the training constraint for improved generalization. Global-to-instance-wise CLIP supervision is applied to help obtain hierarchical semantics that make models more generalizable for the tasks relying on the information of different granularity. Furthermore, for supporting both human and machine visions with only a unifying bitstream, we incorporate a conditional decoding strategy that takes as conditions human or machine preferences, enabling the bitstream to be decoded into different versions for corresponding preferences. As such, our proposed UG-ICM is fully trained in a self-supervised manner, i.e., without awareness of any specific downstream models and tasks. The extensive experiments have shown that the proposed UG-ICM is capable of achieving remarkable improvements in various unseen machine analytics tasks, while simultaneously providing perceptually satisfying images.
 
 ![image-20240309205241968](./img/image2.png)
 
-<div align="center">
-<img src=./img/image3.png width=100% />
-</div>
+![image-20240309205241969](./img/image3.png)
 
 ## Environment
 
