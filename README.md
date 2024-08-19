@@ -14,3 +14,14 @@ The image compression model has long struggled with adaptability and generalizat
 <div align="center">
 <img src=./img/image3.png width=80% />
 </div>
+
+## Environment
+
+Pytorch 3.7.16
+
+CompressAI 1.2.0b3
+
+Pytorch 1.13.0
+
+## Quick Start
+
