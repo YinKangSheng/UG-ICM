@@ -41,7 +41,7 @@ Encode and compress the test images, and obtain the decoded images for human and
 ```python
 cd tests
 
-python test.py -exp test_machine --gpu_id 0  -c /path/to/checkpoint -d /path/to/dataset
+python test.py -exp test --gpu_id 0  -c /path/to/checkpoint -d /path/to/dataset
 ```
 
 ## License
