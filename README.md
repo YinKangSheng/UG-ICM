@@ -37,7 +37,7 @@ Pytorch 1.13.0
 </div>
 
 ## Testing:
-Encode and compress the test image, and obtain the decoded image for human and the decoded image for machine from a unified bitstream.
+Encode and compress the test images, and obtain the decoded images for human and the decoded images for machine from the unified bitstreams.
 ```python
 cd tests
 
