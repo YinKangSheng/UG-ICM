@@ -25,7 +25,10 @@ Pytorch 1.13.0
 
 ### Testing:
 
+```python
 cd tests
 
 python test.py -exp test_machine --gpu_id 0 --beta 1  -c /path/to/checkpoint -d /path/to/dataset
+```
+
 
