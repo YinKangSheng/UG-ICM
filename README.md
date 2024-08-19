@@ -27,7 +27,6 @@ Pytorch 1.13.0
 
 <div class="center">
  
-| Lambda | Metric |
 |:--------:|:--------:|
 | 1 |   [MEDA](https://mega.nz/file/ID1CTDjb#a_McAQeXL3bLshinCvcOU4_pGI3omTJrphhSkjJpApE) |
 | 2 |   [MEDA](https://mega.nz/file/EaEAybJZ#KJX2oy1rAMILaRcRcTm7O8Xjq7oKdrQExKMqg970O6w) |
