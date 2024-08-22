@@ -44,24 +44,22 @@ python test.py -exp test --gpu_id 0  -c /path/to/checkpoint -d /path/to/dataset
 ### Classification:
 #### Dataset: ImageNet-1k
 
-The performance of decoded images for classification tasks (modify the decoded image path in `test.py`).
+The performance of decoded images for classification task (modify the decoded image path in `test.py`).
 ```python
 cd classification
 
 python test.py
 ```
 
-### Classification:
-#### Dataset: ImageNet-1k
+### Instance segmantation:
+#### Dataset: COCO2017_val
 
-The performance of decoded images for classification tasks (modify the decoded image path in `test.py`).
+The performance of decoded images for instance segmantation task (modify the decoded image path in `test.py`).
 ```python
-cd classification
+cd instance segmantation
 
 python test.py
 ```
-
-
 
 ## License
 
