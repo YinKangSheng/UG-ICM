@@ -42,13 +42,14 @@ python test.py -exp test --gpu_id 0  -c /path/to/checkpoint -d /path/to/dataset
 ```
 
 ### Classification:
-检测解码图像面向分类任务的性能(修改test.py中解码图像的路径)
+Data: ImageNet-1k
+
+The performance of decoded images for classification tasks (modify the image decoding path in `test.py`).
 ```python
 cd classification
 
 python test.py
 ```
-
 
 ## License
 
