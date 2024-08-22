@@ -12,7 +12,7 @@ from detectron2.evaluation import COCOEvaluator, DatasetEvaluators, inference_on
 from detectron2.data import build_detection_test_loader
 from detectron2.utils.logger import setup_logger
 from detectron2.data.datasets import register_coco_instances
-# 初始化日志
+# Initialize the logger
 # from detectron2.model_zoo import get_config_file,
 from detectron2 import model_zoo
 from PIL import ImageFile
@@ -21,20 +21,19 @@ import numpy as np
 
 setup_logger()
 
-
 dataset_name = "coco_8k_hy"  
 
 json_file = "Coco/coco_2017.json"
 
-image_dir = "images"
+image_dir = "path/to/images"
 
 register_coco_instances(dataset_name, {}, json_file, image_dir)
 
-# 获取数据集元数据和数据字典
+# Get dataset metadata and dataset dictionaries
 metadata = MetadataCatalog.get(dataset_name)
 dataset_dicts = DatasetCatalog.get(dataset_name)
 
-# 配置并加载预训练的 mask_rcnn 模型
+# Configure and load the pre-trained mask_rcnn model
 cfg = get_cfg()
 
 print("===============load model==============")
@@ -48,15 +47,12 @@ cfg.MODEL.ROI_HEADS.NUM_CLASSES = len(metadata.thing_classes)
 
 predictor = DefaultPredictor(cfg)
 
-
 evaluator = COCOEvaluator(dataset_name, cfg, False, output_dir="./mask/")
 val_loader = build_detection_test_loader(cfg, dataset_name)
 
 output_dir = "./mask/"
 os.makedirs(output_dir, exist_ok=True)
 
-
-# 进行推理并评估
+# Perform inference and evaluation
 print("Running inference...")
 results = inference_on_dataset(predictor.model, val_loader, evaluator)
-
