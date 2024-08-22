@@ -42,7 +42,7 @@ python test.py -exp test --gpu_id 0  -c /path/to/checkpoint -d /path/to/dataset
 ```
 
 ### Classification:
-Data: ImageNet-1k
+#### Dataset: ImageNet-1k
 
 The performance of decoded images for classification tasks (modify the image decoding path in `test.py`).
 ```python
