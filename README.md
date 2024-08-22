@@ -32,12 +32,23 @@ Pytorch 1.13.0
 </div>
 
 ## Testing:
+
+### Compress:
 Encode and compress the test images, and obtain the decoded images for human and the decoded images for machine from the unified bitstreams.
 ```python
 cd tests
 
 python test.py -exp test --gpu_id 0  -c /path/to/checkpoint -d /path/to/dataset
 ```
+
+### Classification:
+检测解码图像面向分类任务的性能(修改test.py中解码图像的路径)
+```python
+cd classification
+
+python test.py
+```
+
 
 ## License
 
