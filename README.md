@@ -73,6 +73,6 @@ python test.py
 [MIT License](https://opensource.org/licenses/MIT)
 
 ## Acknowledgments
-Thanks [Compressai](https://github.com/InterDigitalInc/CompressAI), MLIC, CLIP, TIC for their public code and released models.
+Thanks [Compressai](https://github.com/InterDigitalInc/CompressAI), [MLIC](https://github.com/JiangWeibeta/MLIC), [CLIP](https://github.com/openai/CLIP), [TransTIC](https://github.com/NYCU-MAPL/TransTIC) for their public code and released models.
 
 
