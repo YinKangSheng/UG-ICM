@@ -1,7 +1,7 @@
 # Unified Coding for Both Human Perception and Generalized Machine Analytics with CLIP Supervision（UG-ICM）
 This repo contains the official PyTorch implementation for the paper “Unified Coding for Both Human Perception and Generalized Machine Analytics with CLIP Supervision”.
 
-Unified Coding for Both Human Perception and Generalized Machine Analytics with CLIP Supervision（UG-ICM） is accepted at AAAI 2025 !
+*Unified Coding for Both Human Perception and Generalized Machine Analytics with CLIP Supervision（UG-ICM)* is accepted at AAAI 2025!
 
 ![image-20240309205241967](./img/image1.png)
 
