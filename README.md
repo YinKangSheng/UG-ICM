@@ -3,6 +3,9 @@ This repo contains the official PyTorch implementation for the paper “Unified 
 
 ## Updates
 
+#### 2024/12/13 
+The training script is about to be open-sourced. 
+
 #### 2024/12/10 
 *Unified Coding for Both Human Perception and Generalized Machine Analytics with CLIP Supervision(UG-ICM)* is accepted at **AAAI 2025**!
 
