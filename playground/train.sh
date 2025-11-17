@@ -1,6 +1,0 @@
-work_path=$(dirname $0)
-export PYTHONPATH=..:$PYTHONPATH
-  nohup python newtrain.py --metrics mse --exp mlicpp_mse_q1 --gpu_id 0 --lambda 0.0018 -lr 1e-4 --clip_max_norm 1.0 --seed 2000 --batch-size 64 & > 0035v2.txt
-python train_condi.py --metrics mse --exp mlicpp_condi_q1 --gpu_id 0 --lambda 0.0022  --lambda_beta1 0.0011 --lambda_clip 11 -lr 1e-4 --clip_max_norm 1.0 --seed 2000 --batch-size 128 --clip_arg 4 --test-batch-size 128
-cd ./playground && python train_condi.py --metrics mse --exp mlicpp_condi_q1 --gpu_id 0 --lambda 0.0022  --lambda_beta1 0 --lambda_clip 22 -lr 1e-5  --seed 2000 --batch-size 128 --test-batch-size 128 --tune -e 20 -c experiments/mlicpp_condi_q1/checkpoints/checkpoint_200.pth.tar
-cd ./playground && python train_mask.py --metrics mse --exp mlicpp_condi_q4_tune --gpu_id 0 --lambda 0.001  --lambda_beta1 1 --lambda_clip 1 -lr 1e-5  --seed 2000 --batch-size 128 --test-batch-size 128 --tune  -e 20 -c experiments/mlicpp_condi_q4_2/checkpoints/checkpoint_best_loss.pth.tar
