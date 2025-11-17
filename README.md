@@ -40,9 +40,13 @@ Pytorch 1.13.0
 </div>
 
 ## Training:
-
+Stage One
 ```python
  cd ./playground && python train_condi.py --metrics mse --exp mlicpp_condi_q1 --gpu_id 0 --lambda 0.0022  --lambda_beta1 0 --lambda_clip 22 -lr 1e-5  --seed 2000 --batch-size 128 --test-batch-size 128 --tune -e 20
+ ```
+Stage Two
+```python
+cd ./playground && python train_mask.py --metrics mse --exp mlicpp_condi_q4_tune --gpu_id 0 --lambda 0.001  --lambda_beta1 1 --lambda_clip 1 -lr 1e-5  --seed 2000 --batch-size 128 --test-batch-size 128 --tune  -e 20 -c experiments/mlicpp_condi_q4_2/checkpoints/checkpoint_best_loss.pth.tar
  ```
 ## Testing:
 
