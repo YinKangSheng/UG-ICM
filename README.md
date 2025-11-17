@@ -40,8 +40,10 @@ Pytorch 1.13.0
 </div>
 
 ## Training:
- Update the training script
- 
+
+```python
+ cd ./playground && python train_condi.py --metrics mse --exp mlicpp_condi_q1 --gpu_id 0 --lambda 0.0022  --lambda_beta1 0 --lambda_clip 22 -lr 1e-5  --seed 2000 --batch-size 128 --test-batch-size 128 --tune -e 20
+ ```
 ## Testing:
 
 ### Compress:
