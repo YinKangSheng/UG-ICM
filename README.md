@@ -3,6 +3,9 @@ This repo contains the official PyTorch implementation for the paper “Unified 
 
 ## Updates
 
+#### 2025/11/17 
+The training script has been open-sourced.
+
 #### 2024/12/13 
 The training script is about to be open-sourced. 
 
