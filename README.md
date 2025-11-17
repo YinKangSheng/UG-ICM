@@ -35,8 +35,10 @@ Pytorch 1.13.0
 | UG-ICM|   [BaiDu Drive](https://pan.baidu.com/s/1bEcDDbiSIPj67yVrUt6tGQ?pwd=5doz) |
 
 </div>
+
 ## Training:
- -Update the training script
+ Update the training script
+ 
 ## Testing:
 
 ### Compress:
